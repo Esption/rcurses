@@ -1,0 +1,11 @@
+[package]
+name = "rcurses"
+version = "0.1.0"
+authors = ["Esption"]
+description = "A Rust-y version of curses"
+
+[dependencies]
+libc = "0.2.1"
+termios = "0.2.0"
+clippy = "*"
+
